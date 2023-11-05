@@ -1,14 +1,13 @@
 package com.example.project_actual_dividend.service.impl;
 
 import com.example.project_actual_dividend.dao.CompanyDAO;
+import com.example.project_actual_dividend.service.ScraperService;
 import com.example.project_actual_dividend.dao.DividendDAO;
 import com.example.project_actual_dividend.domain.CompanyEntity;
 import com.example.project_actual_dividend.domain.DividendEntity;
 import com.example.project_actual_dividend.dto.CompanyDto;
-import com.example.project_actual_dividend.dto.DividendDto;
 import com.example.project_actual_dividend.dto.ScrapedResult;
 import com.example.project_actual_dividend.service.CompanyService;
-import com.example.project_actual_dividend.service.ScraperService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;

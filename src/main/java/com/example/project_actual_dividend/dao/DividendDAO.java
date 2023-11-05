@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface DividendDAO {
     void saveAllDAO(List<DividendEntity> dividendEntities);
+
+    List<DividendEntity> findAllCompanyIdDAO(Long id);
 }

@@ -4,7 +4,6 @@ import com.example.project_actual_dividend.dto.CompanyDto;
 import com.example.project_actual_dividend.service.CompanyService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.util.ObjectUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
